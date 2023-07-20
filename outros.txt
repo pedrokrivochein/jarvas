@@ -1,0 +1,56 @@
+char space = ' ';
+
+int x = 9 + 2 + ( 3 - 8 ) + 1;
+char aux_ch = 'X';
+print(aux_ch, char);
+print(x, int);
+
+print(space, char);
+
+int y = 5 * 4;
+aux_ch = 'Y';
+print(aux_ch, char);
+print(y, int);
+
+print(space, char);
+
+int z = x + y;
+aux_ch = 'Z';
+print(aux_ch, char);
+print(z, int);
+
+print(space, char);
+
+bool h = false;
+aux_ch = 'H';
+print(aux_ch, char);
+if (h){
+    char aux = 's';
+    print(aux, char);
+}else{
+    char aux = 'n';
+    print(aux, char);
+}
+
+print(space, char);
+
+x = 2;
+print(x, int);
+if ( y == 20 ) {
+    int k = 2 + 5;
+    print(k, int);
+} else {
+    x = 3;
+    print(x, int);
+}
+
+print(space, char);
+
+aux_ch = 'L';
+print(aux_ch, char);
+
+x = 0;
+while ( x <= 10 ) {
+    x = x + 1;
+    print(x, int);
+}

@@ -1,0 +1,11 @@
+int a = 3 * 10;
+int b = 5;
+float c = 1.1;
+char d = 'a';
+bool e = true;
+
+print(a, int);
+print(b, int);
+print(c, float);
+print(d, char);
+print(e, bool);
